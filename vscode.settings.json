@@ -1,20 +1,71 @@
 {
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-    "editor.fontWeight": "420",
-    "prettier.semi": false,
-    "git.confirmSync": false,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "editor.codeActionsOnSave": {
-    
-    },
-    "git.enableSmartCommit": true,
-    "workbench.colorTheme": "Community Material Theme",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+  "workbench.editor.enablePreview": false,
+  "editor.detectIndentation": false,
+  "workbench.statusBar.visible": true,
+  "editor.foldingStrategy": "indentation",
+  "editor.showFoldingControls": "always",
+  "workbench.iconTheme": "icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "javascript",
+    "javascriptreact"
+  ],
+  "editor.renderWhitespace": "none",
+  "editor.comments.insertSpace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never"
+  },
+  "eslint.validate": ["javascript"],
+  "eslint.format.enable": true,
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "git.autofetch": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "explorer.compactFolders": false,
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "mssql.enableQueryHistoryCapture": false,
+  "workbench.editor.empty.hint": "hidden",
+  "window.confirmSaveUntitledWorkspace": false,
+  "editor.inlayHints.enabled": "off",
+  "files.autoSave": "afterDelay",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.lens.enable": false,
+  "rust-analyzer.lens.implementations.enable": false,
+  "rust-analyzer.lens.run.enable": false,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
+  },
+  "breadcrumbs.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "editor.renderControlCharacters": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.codeLensFontFamily": "Monaspace Neon, monospace",
+  "editor.experimentalInlineEdit.fontFamily": "Monaspace Neon, monospace",
+  "editor.minimap.maxColumn": 80,
+  "workbench.colorTheme": "Webstorm Darcula",
+  "editor.fontSize": 15
 }
