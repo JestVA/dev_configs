@@ -1,0 +1,20 @@
+# General aliases
+alias ls="ls -la -1 --color=always"
+alias c="clear"
+alias ..="cd .."
+alias down="cd ~/Downloads"
+alias desk="cd ~/Desktop"
+alias vsh="nvim ~/.config/fish/config.fish && source ~/.config/fish/config.fish"
+# Git aliases
+alias gs="git status"
+alias gd="git diff"
+alias glog="git log --oneline --graph --all --decorate"
+# Utility aliases
+alias top="htop"
+alias syslog="tail -f /var/log/syslog"
+alias kernlog="tail -f /var/log/kern.log"
+alias untar="tar -xvf"
+alias untargz="tar -xzvf"
+alias unzip="unzip"
+# Docker aliases
+alias dps="docker ps"
