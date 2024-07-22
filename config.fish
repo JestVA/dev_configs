@@ -25,6 +25,7 @@ alias unzip="unzip"
 # Docker aliases
 alias dps="docker ps"
 
+# Customising the command prompt
 function fish_prompt
-    echo -n '~🌯🍣$ '
+    echo -n (prompt_pwd)' 🍬$ '
 end
