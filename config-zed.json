@@ -8,17 +8,26 @@
       "args": [
         "-y",
         "chrome-devtools-mcp@latest",
-        "--browserUrl=http://127.0.0.1:9222"
+        "--browserUrl=http://127.0.0.1:9222",
       ],
-      "env": {}
-    }
+      "env": {},
+    },
+  },
+  "languages": {
+    "CSS": {
+      "language_servers": [
+        "tailwindcss-intellisense-css",
+        "!vscode-css-language-server",
+        "...",
+      ],
+    },
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "session": {
-    "trust_all_worktrees": true
+    "trust_all_worktrees": true,
   },
   "base_keymap": "JetBrains",
   "ui_font_size": 16,
